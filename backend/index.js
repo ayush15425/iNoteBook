@@ -3,7 +3,7 @@ const express = require("express");
 mongoconnect();
 
 const app = express();
-const port = 3000;
+const port = 300;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
